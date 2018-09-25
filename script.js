@@ -5,7 +5,7 @@ $(document).ready(function() {
   var tasksContainer = $('[data-tasks-container]');
 
   // init
-  getAllTasks();a
+  getAllTasks();
 
   function createElement(data) {
     var element = $(datatableRowTemplate).clone();
