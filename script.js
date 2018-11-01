@@ -1,6 +1,6 @@
 $(document).ready(function() {
-  const apiRoot = 'https://radiant-fortress-16946.herokuapp.com/v1/task/getTasks';
-  const trelloApiRoot = 'https://radiant-fortress-16946.herokuapp.com/v1/trello/getTrelloBoards';
+  const apiRoot = 'https://radiant-fortress-16946.herokuapp.com/v1/task/';
+  const trelloApiRoot = 'https://radiant-fortress-16946.herokuapp.com/v1/trello/';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
